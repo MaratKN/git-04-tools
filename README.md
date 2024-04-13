@@ -64,12 +64,19 @@ git log -S "func providerSource(configs" --pretty=format:"%h - %an - %ad"
 * Найдите все коммиты, в которых была изменена функция globalPluginDirs.
 
 git log -S globalPluginDirs --oneline
+
 65c4ba7363 Remove terraform binary
+
 125eb51dc4 Remove accidentally-committed binary
+
 22c121df86 Bump compatibility version to 1.3.0 for terraform core release (#30988)
+
 7c7e5d8f0a Don't show data while input if sensitive
+
 35a058fb3d main: configure credentials from the CLI config file
+
 c0b1761096 prevent log output during init
+
 8364383c35 Push plugin discovery down into command package
 
 ![alt text](https://github.com/MaratKN/git-04-tools/blob/main/6.jpg)
